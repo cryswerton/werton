@@ -9,7 +9,7 @@ class IndexTest extends TestCase{
 
         ob_start();
 
-        include 'index.php';
+        include 'public/index.php';
 
         $output = ob_get_clean();
 
@@ -22,7 +22,7 @@ class IndexTest extends TestCase{
 
         ob_start();
 
-        include 'index.php';
+        include 'public/index.php';
 
         $output = ob_get_clean();
 
