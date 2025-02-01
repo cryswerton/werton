@@ -1,6 +1,6 @@
 <?php
 
-echo "WertonPHP says hello!";
+echo "Werton says hello!";
 
 echo "<br>";
 

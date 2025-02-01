@@ -13,7 +13,7 @@ class IndexTest extends TestCase{
 
         $output = ob_get_clean();
 
-        $message = 'WertonPHP says hello!';
+        $message = 'Werton says hello!';
 
         $this->assertStringContainsString($message, $output);
     }
